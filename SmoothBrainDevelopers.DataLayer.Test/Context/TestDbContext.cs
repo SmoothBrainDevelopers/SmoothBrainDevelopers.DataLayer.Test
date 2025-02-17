@@ -108,7 +108,7 @@ namespace SmoothBrainDevelopers.DataLayer.Test.Context
                 entity.HasKey(e => e.CustomerId);
 
                 entity.HasMany(e => e.Purchases)
-                      .WithOne()
+                      .WithOne(e => e.Customer)
                       .HasForeignKey(e => e.CustomerId)
                       .OnDelete(DeleteBehavior.Cascade);
 
