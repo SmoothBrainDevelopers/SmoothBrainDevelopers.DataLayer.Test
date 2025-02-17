@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<VersionPrefix>1.0.1</VersionPrefix>
+	<VersionPrefix>1.0.2</VersionPrefix>
 	<Title>SmoothBrainDevelopers.DataLayer.Test</Title>
 	<Description>Centralized DataLayer to share between projects to sync test environments</Description>
 	<PackageProjectUrl>https://github.com/SmoothBrainDevelopers/SmoothBrainDevelopers.DataLayer.Test.git</PackageProjectUrl>
